@@ -1,0 +1,25 @@
+2018-01-01 00:06:56.596  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=3m3s178ms).
+2018-01-01 03:09:25.109  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=2h27s146ms).
+2018-01-01 05:51:29.289  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=2h42m3s786ms).
+2018-01-01 05:55:44.527  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=3m44s632ms).
+2018-01-01 05:59:00.827  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=3m16s300ms).
+2018-01-01 06:09:37.126  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m36s299ms).
+2018-01-01 06:15:17.413  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=5m40s286ms).
+2018-01-01 06:23:21.728  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=7m34s304ms).
+2018-01-01 06:34:28.034  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=11m6s306ms).
+2018-01-01 06:49:00.342  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=14m32s308ms).
+2018-01-01 06:50:43.009  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=1m42s667ms).
+2018-01-01 06:52:55.310  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=1m42s298ms).
+2018-01-01 07:07:32.598  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=14m37s288ms).
+2018-01-01 07:09:14.907  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=1m42s309ms).
+2018-01-01 07:15:08.008  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=5m53s101ms).
+2018-01-01 07:25:55.312  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m17s297ms).
+2018-01-01 07:34:49.629  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=8m54s317ms).
+2018-01-01 07:45:22.962  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m33s333ms).
+2018-01-01 07:55:37.010  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m14s48ms).
+2018-01-01 08:00:45.329  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=4m38s317ms).
+2018-01-01 08:14:14.664  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=13m29s335ms).
+2018-01-01 08:22:54.990  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=8m40s326ms).
+2018-01-01 08:25:46.010  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=2m51s19ms).
+2018-01-01 08:31:31.294  INFO 36029 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-01 08:31:31.311  INFO 36029 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
