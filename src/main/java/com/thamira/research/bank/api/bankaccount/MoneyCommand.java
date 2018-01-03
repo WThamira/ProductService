@@ -21,7 +21,7 @@ import org.axonframework.commandhandling.TargetAggregateIdentifier;
 import lombok.Value;
 
 @Value
-public class DepositMoneyCommand {
+public class MoneyCommand {
 
     @TargetAggregateIdentifier
     private String bankAccountId;

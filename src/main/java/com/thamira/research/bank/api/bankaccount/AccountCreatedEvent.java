@@ -16,15 +16,12 @@
 
 package com.thamira.research.bank.api.bankaccount;
 
-import org.axonframework.commandhandling.TargetAggregateIdentifier;
-
 import lombok.Value;
 
 @Value
-public class ReturnMoneyOfFailedBankTransferCommand {
-
-    @TargetAggregateIdentifier
-    private String bankAccountId;
-    private long amount;
+public class AccountCreatedEvent {
+    private String id;
+    private long overdraftLimit;
     private String name;
+
 }

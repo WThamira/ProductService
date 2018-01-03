@@ -21,19 +21,17 @@ import static org.axonframework.commandhandling.model.AggregateLifecycle.apply;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.AggregateIdentifier;
 import org.axonframework.eventsourcing.EventSourcingHandler;
-import org.axonframework.spring.stereotype.Aggregate;
 
-import com.thamira.research.bank.api.bankaccount.BankAccountCreatedEvent;
+import com.thamira.research.bank.api.bankaccount.AccountCreatedEvent;
 import com.thamira.research.bank.api.bankaccount.CreateBankAccountCommand;
-import com.thamira.research.bank.api.bankaccount.DepositMoneyCommand;
-import com.thamira.research.bank.api.bankaccount.MoneyAddedEvent;
-import com.thamira.research.bank.api.bankaccount.MoneyDepositedEvent;
+import com.thamira.research.bank.api.bankaccount.DepositedEvent;
+import com.thamira.research.bank.api.bankaccount.MoneyCommand;
 import com.thamira.research.bank.api.bankaccount.MoneySubtractedEvent;
 import com.thamira.research.bank.api.bankaccount.MoneyWithdrawnEvent;
 import com.thamira.research.bank.api.bankaccount.WithdrawMoneyCommand;
 
-@Aggregate
-public class BankAccount {
+//@Aggregate
+public class SeatAccount {
 
     @AggregateIdentifier
     private String id;
@@ -42,18 +40,19 @@ public class BankAccount {
 	private String name;
 
     @SuppressWarnings("unused")
-    private BankAccount() {
+    private SeatAccount() {
     }
 
     @CommandHandler
-    public BankAccount(CreateBankAccountCommand command) {
-        apply(new BankAccountCreatedEvent(command.getBankAccountId(), command.getOverdraftLimit(),command.getName()));
+    public SeatAccount(CreateBankAccountCommand command) {
+        apply(new AccountCreatedEvent(command.getBankAccountId(), command.getOverdraftLimit(),command.getName()));
     }
 
     @CommandHandler
-    public void deposit(DepositMoneyCommand command) {
-    	System.err.println(id);
-        apply(new MoneyDepositedEvent(id, command.getAmountOfMoney(),command.getName()));
+    public void deposit(MoneyCommand command) {
+    	System.err.println(command);
+    	System.err.println("id "+id);
+        apply(new DepositedEvent(id, command.getAmountOfMoney(),command.getName()));
     }
 
     @CommandHandler
@@ -64,15 +63,16 @@ public class BankAccount {
     }
 
     @EventSourcingHandler
-    public void on(BankAccountCreatedEvent event) {
+    public void on(AccountCreatedEvent event) {
         this.id = event.getId();
         this.overdraftLimit = event.getOverdraftLimit();
         this.balanceInCents = 0;
         this.name=event.getName();
+        System.err.println(id);
     }
 
     @EventSourcingHandler
-    public void on(MoneyAddedEvent event) {
+    public void on(DepositedEvent event) {
     	System.err.println(balanceInCents);
         balanceInCents += event.getAmount();
         name=event.getName();

@@ -16,13 +16,9 @@
 
 package com.thamira.research.bank.api.bankaccount;
 
-import lombok.Value;
+public class DepositedEvent extends MoneyAddedEvent {
 
-@Value
-public class BankAccountCreatedEvent {
-
-    private String id;
-    private long overdraftLimit;
-    private String name;
-
+    public DepositedEvent(String id, long amountOfMoneyDeposited,String name) {
+        super(id, amountOfMoneyDeposited,name);
+    }
 }

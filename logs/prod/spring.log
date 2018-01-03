@@ -1,25 +1,196 @@
-2018-01-01 00:06:56.596  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=3m3s178ms).
-2018-01-01 03:09:25.109  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=2h27s146ms).
-2018-01-01 05:51:29.289  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=2h42m3s786ms).
-2018-01-01 05:55:44.527  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=3m44s632ms).
-2018-01-01 05:59:00.827  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=3m16s300ms).
-2018-01-01 06:09:37.126  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m36s299ms).
-2018-01-01 06:15:17.413  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=5m40s286ms).
-2018-01-01 06:23:21.728  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=7m34s304ms).
-2018-01-01 06:34:28.034  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=11m6s306ms).
-2018-01-01 06:49:00.342  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=14m32s308ms).
-2018-01-01 06:50:43.009  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=1m42s667ms).
-2018-01-01 06:52:55.310  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=1m42s298ms).
-2018-01-01 07:07:32.598  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=14m37s288ms).
-2018-01-01 07:09:14.907  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=1m42s309ms).
-2018-01-01 07:15:08.008  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=5m53s101ms).
-2018-01-01 07:25:55.312  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m17s297ms).
-2018-01-01 07:34:49.629  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=8m54s317ms).
-2018-01-01 07:45:22.962  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m33s333ms).
-2018-01-01 07:55:37.010  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=10m14s48ms).
-2018-01-01 08:00:45.329  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=4m38s317ms).
-2018-01-01 08:14:14.664  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=13m29s335ms).
-2018-01-01 08:22:54.990  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=8m40s326ms).
-2018-01-01 08:25:46.010  WARN 36029 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=2m51s19ms).
-2018-01-01 08:31:31.294  INFO 36029 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
-2018-01-01 08:31:31.311  INFO 36029 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:08:48.680  INFO 6458 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:08:48.688  INFO 6458 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:10:17.173  INFO 7874 --- [main] c.t.r.ProductServiceApplicationTests     : Starting ProductServiceApplicationTests on Thamiras-MacBook-Pro.local with PID 7874 (started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:10:17.175  INFO 7874 --- [main] c.t.r.ProductServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2018-01-03 00:10:19.754  INFO 7874 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:10:20.201  INFO 7874 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:10:24.204  INFO 7874 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:10:24.206  INFO 7874 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2018-01-03 00:10:25.101  INFO 7874 --- [main] c.t.r.ProductServiceApplicationTests     : Started ProductServiceApplicationTests in 8.328 seconds (JVM running for 9.302)
+2018-01-03 00:10:25.373  INFO 7874 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:10:25.382  INFO 7874 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:10:39.936  INFO 7896 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 7896 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:10:39.938  INFO 7896 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 00:10:41.702  INFO 7896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 00:10:41.704  INFO 7896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 00:10:41.714  INFO 7896 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 00:10:41.802  INFO 7896 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 00:10:42.034  INFO 7896 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:10:42.209  INFO 7896 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:10:44.140  INFO 7896 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:10:44.141  INFO 7896 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:10:44.693  INFO 7896 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 5.201 seconds (JVM running for 5.945)
+2018-01-03 00:12:16.197  INFO 7896 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 00:12:16.350  WARN 7896 --- [http-nio-8085-exec-1] o.a.c.gateway.DefaultCommandGateway      : Command 'com.thamira.research.bank.api.bankaccount.SeatReserveUpadateCommand' resulted in org.axonframework.eventsourcing.IncompatibleAggregateException(Aggregate identifier must be non-null after applying an event. Make sure the aggregate identifier is initialized at the latest when handling the creation event.)
+2018-01-03 00:20:43.485  INFO 7896 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:20:43.490  INFO 7896 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:20:45.703  INFO 8076 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 8076 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:20:45.705  INFO 8076 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 00:20:47.486  INFO 8076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 00:20:47.487  INFO 8076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 00:20:47.509  INFO 8076 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 00:20:47.572  INFO 8076 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 00:20:47.813  INFO 8076 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:20:48.030  INFO 8076 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:20:50.044  INFO 8076 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:20:50.045  INFO 8076 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:20:50.542  INFO 8076 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 5.174 seconds (JVM running for 5.768)
+2018-01-03 00:38:04.971  INFO 8076 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 00:38:17.634  WARN 8076 --- [http-nio-8085-exec-2] o.a.c.gateway.DefaultCommandGateway      : Command 'com.thamira.research.bank.api.bankaccount.SeatReserveUpadateCommand' resulted in org.axonframework.eventsourcing.IncompatibleAggregateException(Aggregate identifier must be non-null after applying an event. Make sure the aggregate identifier is initialized at the latest when handling the creation event.)
+2018-01-03 00:39:21.663  INFO 8076 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:39:21.668  INFO 8076 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:39:45.864  INFO 8644 --- [main] c.t.r.ProductServiceApplicationTests     : Starting ProductServiceApplicationTests on Thamiras-MacBook-Pro.local with PID 8644 (started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:39:45.868  INFO 8644 --- [main] c.t.r.ProductServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2018-01-03 00:39:48.407  INFO 8644 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:39:48.857  INFO 8644 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:39:52.267  INFO 8644 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:39:52.269  INFO 8644 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2018-01-03 00:39:53.198  INFO 8644 --- [main] c.t.r.ProductServiceApplicationTests     : Started ProductServiceApplicationTests in 7.787 seconds (JVM running for 8.786)
+2018-01-03 00:39:53.449  INFO 8644 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:39:53.456  INFO 8644 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:43:15.242  INFO 8763 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 8763 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:43:15.245  INFO 8763 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 00:43:16.666  INFO 8763 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 00:43:16.682  INFO 8763 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 00:43:16.689  INFO 8763 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 00:43:16.741  INFO 8763 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 00:43:16.972  INFO 8763 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:43:17.149  INFO 8763 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:43:18.823  INFO 8763 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:43:18.823  INFO 8763 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:43:19.284  INFO 8763 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 4.354 seconds (JVM running for 5.042)
+2018-01-03 00:43:49.749  INFO 8763 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 00:44:11.637  WARN 8763 --- [http-nio-8085-exec-2] o.a.c.gateway.DefaultCommandGateway      : Command 'com.thamira.research.bank.api.bankaccount.SeatReserveUpadateCommand' resulted in org.axonframework.eventsourcing.IncompatibleAggregateException(Aggregate identifier must be non-null after applying an event. Make sure the aggregate identifier is initialized at the latest when handling the creation event.)
+2018-01-03 00:45:16.349  INFO 8763 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:45:16.354  INFO 8763 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:46:05.823  INFO 8833 --- [main] c.t.r.ProductServiceApplicationTests     : Starting ProductServiceApplicationTests on Thamiras-MacBook-Pro.local with PID 8833 (started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:46:05.826  INFO 8833 --- [main] c.t.r.ProductServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2018-01-03 00:46:09.048  INFO 8833 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:46:09.612  INFO 8833 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:46:13.406  INFO 8833 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:46:13.407  INFO 8833 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2018-01-03 00:46:14.319  INFO 8833 --- [main] c.t.r.ProductServiceApplicationTests     : Started ProductServiceApplicationTests in 8.929 seconds (JVM running for 9.951)
+2018-01-03 00:46:14.588  INFO 8833 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:46:14.596  INFO 8833 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:47:03.768  INFO 8874 --- [main] c.t.r.ProductServiceApplicationTests     : Starting ProductServiceApplicationTests on Thamiras-MacBook-Pro.local with PID 8874 (started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:47:03.771  INFO 8874 --- [main] c.t.r.ProductServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2018-01-03 00:47:07.310  INFO 8874 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:47:07.728  INFO 8874 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:47:10.964  INFO 8874 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:47:10.965  INFO 8874 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2018-01-03 00:47:12.595  INFO 8874 --- [main] c.t.r.ProductServiceApplicationTests     : Started ProductServiceApplicationTests in 9.235 seconds (JVM running for 10.191)
+2018-01-03 00:47:12.879  INFO 8874 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 00:47:12.898  INFO 8874 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 00:57:07.001  INFO 9063 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 9063 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 00:57:07.005  INFO 9063 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 00:57:08.959  INFO 9063 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 00:57:08.960  INFO 9063 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 00:57:08.969  INFO 9063 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 00:57:09.043  INFO 9063 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 00:57:09.347  INFO 9063 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 00:57:09.535  INFO 9063 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 00:57:11.486  INFO 9063 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:57:11.487  INFO 9063 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 00:57:12.064  INFO 9063 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 5.548 seconds (JVM running for 6.27)
+2018-01-03 00:57:19.351  INFO 9063 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 01:02:43.300  INFO 9063 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:02:43.306  INFO 9063 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 01:03:17.384  INFO 9273 --- [main] c.t.r.ProductServiceApplicationTests     : Starting ProductServiceApplicationTests on Thamiras-MacBook-Pro.local with PID 9273 (started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 01:03:17.389  INFO 9273 --- [main] c.t.r.ProductServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2018-01-03 01:03:19.915  INFO 9273 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 01:03:20.388  INFO 9273 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 01:03:23.741  INFO 9273 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:03:23.742  INFO 9273 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2018-01-03 01:03:24.568  INFO 9273 --- [main] c.t.r.ProductServiceApplicationTests     : Started ProductServiceApplicationTests in 7.568 seconds (JVM running for 8.529)
+2018-01-03 01:03:24.746  INFO 9273 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:03:24.755  INFO 9273 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 01:09:18.924  INFO 9540 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 9540 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 01:09:18.926  INFO 9540 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 01:09:20.409  INFO 9540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 01:09:20.411  INFO 9540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 01:09:20.435  INFO 9540 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 01:09:20.495  INFO 9540 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 01:09:20.726  INFO 9540 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 01:09:20.910  INFO 9540 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 01:09:22.849  INFO 9540 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:09:22.850  INFO 9540 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:09:23.324  INFO 9540 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 4.715 seconds (JVM running for 5.356)
+2018-01-03 01:09:38.695  INFO 9540 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 01:09:38.857  WARN 9540 --- [http-nio-8085-exec-1] o.a.c.gateway.DefaultCommandGateway      : Command 'com.thamira.research.bank.api.bankaccount.DepositMoneyCommand' resulted in org.axonframework.serialization.UnknownSerializedTypeException(Could not deserialize a message. The serialized type is unknown: com.thamira.research.bank.api.bankaccount.BankAccountCreatedEvent (rev. null))
+2018-01-03 01:11:17.482  INFO 9540 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:11:17.486  INFO 9540 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 01:12:20.465  INFO 9627 --- [main] c.t.r.ProductServiceApplicationTests     : Starting ProductServiceApplicationTests on Thamiras-MacBook-Pro.local with PID 9627 (started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 01:12:20.469  INFO 9627 --- [main] c.t.r.ProductServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2018-01-03 01:12:23.029  INFO 9627 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 01:12:23.496  INFO 9627 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 01:12:26.851  INFO 9627 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:12:26.852  INFO 9627 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2018-01-03 01:12:27.788  INFO 9627 --- [main] c.t.r.ProductServiceApplicationTests     : Started ProductServiceApplicationTests in 7.791 seconds (JVM running for 8.889)
+2018-01-03 01:12:27.998  INFO 9627 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:12:28.015  INFO 9627 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 01:12:36.887  INFO 9644 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 9644 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 01:12:36.889  INFO 9644 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 01:12:38.311  INFO 9644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 01:12:38.312  INFO 9644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 01:12:38.319  INFO 9644 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 01:12:38.377  INFO 9644 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 01:12:38.633  INFO 9644 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 01:12:38.818  INFO 9644 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 01:12:40.486  INFO 9644 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:12:40.487  INFO 9644 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:12:40.964  INFO 9644 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 4.414 seconds (JVM running for 4.863)
+2018-01-03 01:12:48.200  INFO 9644 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 01:13:24.249  INFO 9644 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:13:24.253  INFO 9644 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 01:14:27.652  INFO 9698 --- [main] c.t.r.ProductServiceApplicationTests     : Starting ProductServiceApplicationTests on Thamiras-MacBook-Pro.local with PID 9698 (started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 01:14:27.657  INFO 9698 --- [main] c.t.r.ProductServiceApplicationTests     : No active profile set, falling back to default profiles: default
+2018-01-03 01:14:30.353  INFO 9698 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 01:14:30.822  INFO 9698 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 01:14:34.528  INFO 9698 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:14:34.529  INFO 9698 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2018-01-03 01:14:35.551  INFO 9698 --- [main] c.t.r.ProductServiceApplicationTests     : Started ProductServiceApplicationTests in 8.44 seconds (JVM running for 9.515)
+2018-01-03 01:14:35.876  INFO 9698 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:14:35.899  INFO 9698 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 01:15:21.333  INFO 9742 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 9742 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 01:15:21.336  INFO 9742 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 01:15:22.788  INFO 9742 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 01:15:22.789  INFO 9742 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 01:15:22.796  INFO 9742 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 01:15:22.850  INFO 9742 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 01:15:23.082  INFO 9742 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 01:15:23.270  INFO 9742 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 01:15:24.972  INFO 9742 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:15:24.973  INFO 9742 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:15:25.452  INFO 9742 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 4.433 seconds (JVM running for 4.896)
+2018-01-03 01:15:41.936  INFO 9742 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 01:17:07.428  INFO 9742 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:17:07.432  INFO 9742 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 01:21:06.639  INFO 9912 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 9912 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 01:21:06.642  INFO 9912 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 01:21:08.185  INFO 9912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 01:21:08.186  INFO 9912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 01:21:08.210  INFO 9912 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 01:21:08.267  INFO 9912 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 01:21:08.505  INFO 9912 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 01:21:08.686  INFO 9912 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 01:21:10.414  INFO 9912 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:21:10.415  INFO 9912 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 01:21:10.881  INFO 9912 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 4.605 seconds (JVM running for 5.306)
+2018-01-03 01:21:18.700  INFO 9912 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 01:59:34.885  INFO 9912 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 01:59:34.895  INFO 9912 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-03 10:44:33.904  INFO 11138 --- [main] c.t.research.ProductServiceApplication   : Starting ProductServiceApplication on Thamiras-MacBook-Pro.local with PID 11138 (/Users/thamira/ProjectFolder/resurch/Product_Service/target/classes started by thamira in /Users/thamira/ProjectFolder/resurch/Product_Service)
+2018-01-03 10:44:33.907  INFO 11138 --- [main] c.t.research.ProductServiceApplication   : No active profile set, falling back to default profiles: default
+2018-01-03 10:44:36.262  INFO 11138 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-03 10:44:36.264  INFO 11138 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 10:44:36.274  INFO 11138 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/thamira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-01-03 10:44:36.363  INFO 11138 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-03 10:44:36.616  INFO 11138 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-03 10:44:36.845  INFO 11138 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-03 10:44:39.444  INFO 11138 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 10:44:39.445  INFO 11138 --- [main] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2018-01-03 10:44:40.097  INFO 11138 --- [main] c.t.research.ProductServiceApplication   : Started ProductServiceApplication in 6.665 seconds (JVM running for 7.85)
+2018-01-03 10:44:53.473  INFO 11138 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-03 10:44:53.608  WARN 11138 --- [http-nio-8085-exec-1] o.a.c.gateway.DefaultCommandGateway      : Command 'com.thamira.research.bank.api.bankaccount.SeatReserveUpadateCommand' resulted in org.axonframework.eventsourcing.IncompatibleAggregateException(Aggregate identifier must be non-null after applying an event. Make sure the aggregate identifier is initialized at the latest when handling the creation event.)
+2018-01-03 11:08:34.517  INFO 11138 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-03 11:08:34.522  INFO 11138 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.

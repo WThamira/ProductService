@@ -3,7 +3,7 @@ package com.thamira.research.bank.handler;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
 
-import com.thamira.research.bank.api.bankaccount.BankAccountCreatedEvent;
+import com.thamira.research.bank.api.bankaccount.AccountCreatedEvent;
 import com.thamira.research.bank.api.bankaccount.MoneyAddedEvent;
 import com.thamira.research.bank.api.bankaccount.MoneySubtractedEvent;
 
@@ -13,7 +13,7 @@ public class BankAccountEventListener {
 
 
     @EventHandler
-    public void on(BankAccountCreatedEvent event) {
+    public void on(AccountCreatedEvent event) {
         System.err.println(event.getId());
     }
 
